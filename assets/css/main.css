@@ -1,0 +1,88 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:arial;
+	font-size:1em;
+}
+
+.mainContainer{
+	clear:both;
+	float:left;
+	overflow:auto;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+.mainContainer .mainLbl{
+	color:#222D68;
+	font-weight:bold;
+}
+
+.mainContainer input[type=button].btn{
+	background-color:#222D68;
+	color:#FFFFFF;
+	font-weight:bold;
+	min-width:5em;
+	height:2em;
+	border:2px outset #000000;
+}
+
+.mainContainer input[type=button].btn:hover{
+	cursor:pointer;
+}
+
+.mainContainer .tabularData{
+	clear:both;
+	float:left;
+	overflow:auto;
+	margin-top:1em;
+	padding:0;
+	width:95%;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.mainContainer .tabularData .header{
+	clear:both;
+	float:left;
+	overflow:auto;
+	background-color:#222D68;
+	width:100%;
+	margin:0;
+	padding:0;
+	font-size:1.2em;
+}
+
+.mainContainer .tabularData .tableBody{
+	clear:both;
+	float:left;
+	overflow:auto;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.mainContainer .tabularData .tableBody .row{
+	clear:both;
+	float:left;
+	overflow:auto;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.mainContainer .tabularData .header .cell, .mainContainer .tabularData .tableBody .row .cell{
+	float:left;
+	width:16.6%;
+}
+
+.mainContainer .tabularData .tableBody .row:nth-child(odd){
+	background-color:#87CEFA;
+}
+.mainContainer .tabularData .tableBody .row:nth-child(even){
+	background-color:#1E90FF;
+}
+
+
+

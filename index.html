@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Top View Test(Sonny Rahman)</title>
+<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+<script src="assets/js/main.js"></script>
+</head>
+<body>
+  <div class="mainContainer">
+    <label class="mainLbl" for="inp_no_records">Enter Number of Records To Return:</label> <input type="text" name="inp_no_records" id="inp_no_records" value="" placeholder="Enter a number"/>
+    <input type="button" onclick="javascript:fetchData()" value="Fetch Data" class="btn"/>
+    
+    <div id="tabularData" class="tabularData">
+       <div class="header">
+          <div class="cell" id="currency">Currency</div>
+          <div class="cell" id="15m">15m</div>
+          <div class="cell" id="last">Last</div>
+          <div class="cell" id="buy">Buy</div>
+          <div class="cell" id="sell">Sell</div>
+          <div class="cell" id="sysmbol">Symbol</div>
+       </div>
+       
+       <div class="tableBody" id="tableBody">
+       </div>
+    </div>
+    
+  </div>
+</body>
+</html>
